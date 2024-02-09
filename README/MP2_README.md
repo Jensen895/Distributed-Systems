@@ -3,11 +3,15 @@
 
 
 ## Project Description
-A gossip style failure detector that monitor distributed machines and checks if they are active or failed.
+A gossip style failure detector that monitor distributed machines and checks if they are active or failed.  
+### Normal Mode
+Sets a parameter for Tfail, which is the time to determines if a node has failed if its heartbeat has not increase during the time interval.
+### Suspicion Mode
+Each node now gossips a new information called incarnation number associated with each process which can only be incremented by the node itself. When a node suspect some node to be failed, the node sets the process's state as Suspected, and increment its incarnation number. After a time interval, Tsus, if the node doesn't receive a greater incarnation number of the process with the state: Alive, it fails that process.
 
 ## Clone
 ```
-git clone git@gitlab.engr.illinois.edu:yy63/mp1.git  
+git clone git@github.com:Jensen895/Distributed-Systems.git  
 cd mp1  
 ```
 
@@ -32,11 +36,11 @@ example:
 ```
 ./mp2_demo <username> 01 -j  
 ```
-- Print VM10's membership list
+- Print VM10's membership list  
 ```
 ./mp2_demo <username> 10 -p  
 ```   
-- VM3 wants to leave   
+- VM3 wants to leave the cluster  
 ```  
 ./mp2_demo <username> 03 -l    
 ```  
