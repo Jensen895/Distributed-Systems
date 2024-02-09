@@ -1,8 +1,8 @@
-### Project on Distributed Systems and Programming
+# Project on Distributed Systems and Programming
 UIUC CS425/ECE428 Fall 2023
 
 ## Setup
-10 individual machines all serving as server and clients  
+10 individual machines all serving as servers and clients  
 
 ## README for different phase of the project
 1. Plain text and regex text query on distributed machines   
@@ -11,5 +11,5 @@ UIUC CS425/ECE428 Fall 2023
 [MP2_README](https://github.com/Jensen895/Distributed-Systems/blob/main/README/MP2_README.md)
 3. Simple distribued file system  
 [MP3_README](https://github.com/Jensen895/Distributed-Systems/blob/main/README/MP3_README.md)
-4. (Pending) Simple MapReduce worker + NoSQL storage system
+4. (Pending) Simple MapReduce worker + NoSQL storage system  
 [MP4_README](https://github.com/Jensen895/Distributed-Systems/blob/main/README/MP4_README.md)
