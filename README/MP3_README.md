@@ -1,11 +1,11 @@
 # MP3
 
 ## Project Description
-A simple distributed file system that allow clients to write/read/update/delete files in the system.
+A simple distributed file system that allow clients to write/read/update/delete files between the cluster and its local directory.
 
 ## Clone
 ```
-git clone git@gitlab.engr.illinois.edu:yy63/mp1.git  
+git clone git@github.com:Jensen895/Distributed-Systems.git  
 cd mp1  
 ```
 
