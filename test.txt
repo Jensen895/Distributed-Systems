@@ -1,9 +1,0 @@
-a, apple
-a, animal
-b, boy
-b, banana
-d, dog
-d, dinosaur
-a, axe
-z, zebra
-y, yamaha
